@@ -1,4 +1,4 @@
-FROM nextcloud:27.1.6-apache as builder
+FROM nextcloud:28.0.2-apache as builder
 
 # Build and install dlib on builder
 
