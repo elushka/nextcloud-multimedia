@@ -75,7 +75,7 @@ RUN echo memory_limit=2048M > /usr/local/etc/php/conf.d/memory-limit.ini
 # Pdlib is already installed, now without all build dependencies.
 # You could test again if everything is correct, uncommenting the next lines
 #
-RUN apt-get install -y git wget
+RUN apt-get install -y git wget vim
 RUN git clone https://github.com/matiasdelellis/pdlib-min-test-suite.git \
     && cd pdlib-min-test-suite \
     && make
